@@ -4,11 +4,6 @@ spring:
     name: demo-webflux-2
   webflux:
     base-path: /api
-  data:
-    mongodb:
-      authentication-database: admin
-      uri: mongodb://localhost:27107/test
-      database: test
 
 logging:
   level:
